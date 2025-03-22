@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Shrikhand', sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    width: 100%;
+    background-color: #FEA910;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo-img {
+    width: 200px; /* Ajuste o tamanho do logo conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.navbar-nav {
+    margin-left: auto; /* Empurra os itens de navegação para a direita */
+}
+
+.navbar-nav .nav-item {
+    margin-left: 15px; /* Espaçamento entre os itens de navegação */
+}
+
+.navbar-nav .nav-link {
+    color: #271409;
+    font-size: 18px;
+    padding: 10px 15px; /* Espaçamento interno dos itens de navegação */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #271409;
+    color: #FEA910;
+}
+
+/* Home Carousel Styles */
+#homeCarousel {
+    max-height: 500px; /* Ajuste conforme necessário */
+    overflow: hidden; /* Esconde partes da imagem que ultrapassam o contêiner */
+}
+
+#homeCarousel .carousel-item img {
+    height: auto; /* Imagem se ajustará automaticamente à altura do contêiner */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    object-fit: cover; /* Ajusta a imagem para cobrir o contêiner mantendo a proporção */
+}
+/* Content Styles */
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.card {
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    max-height: 250px; /* Ajuste conforme necessário */
+    border-radius: 10px;
+    margin: 0 auto; /* Centraliza a imagem */
+}
+.cardindex {
+    background-color: #FEA910;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+}
+
+.cardindex img {
+    width: 100%;
+    height: auto;
+    max-height: 250px; /* Max height for images in cards */
+    border-radius: 10px;
+    margin: 0 auto; /* Center the image */
+}
+.cardbanho {
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 40%;
+}
+
+.cardbanho img {
+    width: 100%;
+    height: auto;
+    max-height: 200px; /* Max height for images in cards */
+    border-radius: 10px;
+    margin: 0 auto; /* Center the image */
+}
+.card-title {
+    font-size: 24px;
+    color: #271409;
+    margin-top: 10px;
+}
+.card-header {
+    background-color: #FEA910;
+    color: #271409;
+    font-size: 1.5rem;
+}
+
+.card-body {
+    background-color: #fff;
+    color: #271409;
+    font-size: 1.2rem;
+}
+
+.employee-image {
+    height: 200px; 
+    margin-bottom: 20px; 
+    overflow: hidden; 
+}
+
+.employee-image img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.employee-image img:hover {
+    transform: scale(1.1); 
+}
+.section-title {
+    font-size: 2.5rem;
+    color: #FEA910;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* Footer Styles */
+.footer {
+    width: 100%;
+    background-color: #271409;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0;
+    color: #FEA910;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-section h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-section li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section li a:hover {
+    color: #FEA910;
+    text-decoration: underline;
+}
+
+.map-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.map-section iframe {
+    border-radius: 5px;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Shrikhand', sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #FEA910;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: #271409;
+}
+
+
+
+.card-img-top {
+    border-radius: 10px;
+    max-height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #FEA910;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.25rem;
+    color: #271409;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #271409;
+}
+
+.footer p {
+    margin: 0;
+    color: #FEA910;
+}
+
+
+.form-label {
+    color: #271409;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-control, .form-select, textarea {
+    border: 2px solid #271409;
+    border-radius: 15px;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.form-control:focus, .form-select:focus, textarea:focus {
+    border-color: #FEA910;
+    box-shadow: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.btn-warning {
+    background-color: #FEA910;
+    color: #271409;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-warning:hover {
+    background-color: #f7a50e;
+    color: #ffffff;
+}
+.containerbanho {
+    max-width: 70%;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonial Carousel Styles */
+.testimonial-card {
+    background-color: #FEA910;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+    margin: 20px;
+    color: #271409;
+    font-size: 18px;
+}
+

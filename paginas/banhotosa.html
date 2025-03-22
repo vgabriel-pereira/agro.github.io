@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Imagens/logo.png">
+    <title>Agro Caetano</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../Imagens/Logo amarela.png" alt="Logo" class="logo-img">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="./quemsomos.html">Quem somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./banhotosa.html">Banho e Tosa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./animais.html">Animais</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./racoes.html">Rações</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="text-center mb-4">
+        <div class="content">
+            <div class="cardbanho">
+                <img src="../Imagens/Banho (2).png" alt="Animais">
+                
+            </div>
+
+            <div class="cardbanho">
+                <img src="../Imagens/Banho (3).png" alt="Pet Shop">
+            </div>
+        </div>
+        <p class="mt-3">
+            Mime seu fiel companheiro com os serviços de banho e tosa premium da Agro Caetano! Sabemos que seu animal de estimação é mais do que apenas um bicho de estimação - é um membro valioso da sua família. É por isso que nos dedicamos a oferecer uma experiência de cuidado completa, que não apenas realça a beleza exterior, mas também promove o bem-estar físico e emocional do seu querido amigo de quatro patas.
+        </p>
+    </section>
+
+    <section class="text-center">
+        <h2 class="section-title">Nossa Equipe:</h2>
+        <p>
+            Nossa equipe de especialistas em banho e tosa é apaixonada por proporcionar um tratamento de spa para seu pet. Utilizando produtos de qualidade e técnicas especializadas, cada sessão de banho é uma experiência relaxante e revigorante. Desde a remoção suave de sujeira e odores até a hidratação profunda da pele e do pelo, cada etapa é cuidadosamente planejada para garantir o máximo conforto e higiene para seu animal de estimação.
+        </p>
+        <div class="content">
+            <div class="cardbanho">
+                <img src="../Imagens/funcionario banho (2).png" alt="Animais">
+            </div>
+
+            <div class="cardbanho">
+                <img src="../Imagens/funcionario banho (4).png" alt="Pet Shop">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="text-center">
+        <h2 class="section-title">Entendemos seu Animal:</h2>
+        <p>
+            Entendemos que cada animal é único, e é por isso que oferecemos um atendimento personalizado para atender às necessidades individuais do seu amigo peludo. Do início ao fim, seu animal receberá cuidados atentos e amorosos, garantindo que cada visita ao nosso salão seja uma experiência positiva e memorável.
+        </p>
+        <div class="content">
+            <div class="cardbanho">
+                <img src="../Imagens/Banho (6).png" alt="Animais">
+            </div>
+
+            <div class="cardbanho">
+                <img src="../Imagens/Banho (5).png" alt="Pet Shop">
+            </div>
+
+        </div>
+    </section>
+
+    <div class="containerbanho">
+        <h1 class="text-center">Agende o banho do seu Pet</h1>
+        <form>
+            <div class="mb-3">
+                <label for="nomePet" class="form-label">Nome do Pet</label>
+                <input type="text" class="form-control" id="nomePet" placeholder="Nome do Pet">
+            </div>
+            <div class="mb-3">
+                <label for="nomeResponsavel" class="form-label">Nome Responsável</label>
+                <input type="text" class="form-control" id="nomeResponsavel" placeholder="Seu Nome">
+            </div>
+            <div class="mb-3">
+                <label for="celular" class="form-label">Celular</label>
+                <input type="tel" class="form-control" id="celular" placeholder="(__) ____-_____">
+            </div>
+            <div class="mb-3">
+                <label for="data" class="form-label">Data</label>
+                <input type="date" class="form-control" id="data" placeholder="Digite a data desejada">
+            </div>
+            <div class="mb-3">
+                <label for="horario" class="form-label">Horario</label>
+                <select class="form-select" id="horario">
+                    <option selected>Selecione o horário</option>
+                    <option value="9h">9h</option>
+                    <option value="10h">10h</option>
+                    <option value="11h">11h</option>
+                    <option value="14h">14h</option>
+                    <option value="15h">15h</option>
+                    <option value="16h">16h</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="observacao" class="form-label">Digite Alguma Observação</label>
+                <textarea class="form-control" id="observacao" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning w-100">Agendar</button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-section col-lg-3 col-md-6">
+                    <h3>Sobre nós</h3>
+                    <ul>
+                        <li><a href="./quemsomos.html"><i class="fas fa-info-circle"></i> Quem somos</a></li>
+                        <li><a href="./banhotosa.html"><i class="fas fa-shower"></i> Banho e Tosa</a></li>
+                        <li><a href="./animais.html"><i class="fas fa-paw"></i> Animais</a></li>
+                        <li><a href="./racoes.html"><i class="fas fa-seedling"></i> Rações</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section col-lg-3 col-md-6">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li><a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+                        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="https://web.facebook.com/?locale=pt_BR&_rdc=1&_rdr"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section col-lg-3 col-md-6">
+                    <h3>Contatos</h3>
+                    <ul>
+                        <li><a href="https://mail.google.com"><i class="fas fa-envelope"></i> E-mail</a></li>
+                        <li><a href="https://web.whatsapp.com/"><i class="fas fa-phone-alt"></i> WhatsApp</a></li>
+                        <li><a href="./contato.html"><i class="fas fa-comments"></i> Ouvidoria</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section col-lg-3 col-md-6">
+                    <h3>Políticas</h3>
+                    <ul>
+                        <li><a href="./politicaprivacidade.html"><i class="fas fa-lock"></i> Política de Privacidade</a></li>
+                        <li><a href="./potilicaentrega.html"><i class="fas fa-truck"></i> Política de Entrega</a></li>
+                        <li><a href="./trocadevolucao.html"><i class="fas fa-exchange-alt"></i> Troca e Devolução</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section col-lg-3 col-md-6">
+                    <h3>Localização</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345091076!2d144.96305781532184!3d-37.8142179797517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577c356f21d6c0!2sGoogle!5e0!3m2!1sen!2sau!4v1635491324721!5m2!1sen!2sau" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+        <div class="text-center py-3" style="background-color: #271409; color: #FEA910;">
+            <p>&copy; 2024 Agro Caetano. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
